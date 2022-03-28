@@ -28,8 +28,6 @@ if __name__ == '__main__':
               'rf__max_depth': [3, 4, 5],
               'rf__max_features': ['auto', 'sqrt', 'log2'],
               'svc__kernel': ['linear', 'rbf', 'poly', 'sigmoid'],
-              # 'svc__degree': [3, 4, 5],
-              # 'svc__gamma': ['scale', 'auto'],
               'svc__C': [1.0, 10.0, 25.0],
               'dt__criterion': ['gini', 'entropy'],
               'dt__splitter': ['best', 'random'],
